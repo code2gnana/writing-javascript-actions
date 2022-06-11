@@ -3,7 +3,7 @@ name: "my hello action"
 description: "say hello with GitHub actions"
 
 inputs: 
-  first-greetings:
+  first-greeting:
     description: "who would you like to greet in the console"
     required: true
     default: "Hubot"
