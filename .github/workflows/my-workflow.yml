@@ -12,6 +12,7 @@ jobs:
       
       - name: "hello-action"
         uses: ./.github/actions/hello-world
-        #with: 
-         # first-greeting: "Learning Lab User"
-         # third-greeting: ""
+        with: 
+          first-greeting: "Learning Lab User"
+          second-greeting: "Mona the Octacat is awecome"
+          third-greeting: "This is the last input"
