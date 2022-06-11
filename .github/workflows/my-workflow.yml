@@ -2,7 +2,7 @@ name: "JS Actions"
 
 on: 
   pull_request: 
-    types: [label]
+    types: [labeled]
 
 jobs:
   action: 
