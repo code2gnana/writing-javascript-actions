@@ -13,6 +13,6 @@ jobs:
       - name: "hello-action"
         uses: ./.github/actions/hello-world
         with: 
-          first-greeting: "Hello Learning Lab User"
-          second-greeting: "Hello Mona the Octacat is awesome"
-          third-greeting: "Hello This is the last input"
+          first-greeting: "Learning Lab User"
+          second-greeting: "Mona the Octacat is awesome"
+          third-greeting: "This is the last input"
