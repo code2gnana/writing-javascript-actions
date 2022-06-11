@@ -1,7 +1,7 @@
 name: "JS Actions"
 
 on: 
-  pull_requet: 
+  pull_request: 
     types: [label]
 
 jobs:
