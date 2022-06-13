@@ -1,4 +1,4 @@
-name: "I have issues"""
+name: "I have issues"
 
 description: "consume the output of the previous action and create a new issue in the repository"
 
