@@ -23,4 +23,4 @@ jobs:
         uses: ./.github/actions/issue-maker
         with: 
           repo-token: ${{secrets.GITHUB_TOKEN}}
-          joke: ${{ setps.jokes.outputs.joke-output }}
+          joke: ${{ steps.jokes.outputs.joke-output }}
